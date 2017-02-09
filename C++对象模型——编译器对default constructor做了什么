@@ -1,0 +1,4 @@
+首先：
+
+1、对于一个class，没有定义任何一个构造函数，那么编译器也不一定会给这个类合成一个default constructor！！！
+2、编译器就算给你的class合成了一个default constructor，它也不会把你的class的data members都初始化一遍！！！
